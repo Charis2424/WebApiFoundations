@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiFoundations", "WebApiFoundations\WebApiFoundations.csproj", "{9BFF565A-9D9F-47F8-9EB9-ACC0B574C2DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{F6A85BE0-88FF-43F8-96BC-A9B023D8B2E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{0EBE0797-DB59-47AB-A17B-C6EB7E27290B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{4EBC246F-DE8A-432B-9236-189256E79939}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{947C3C97-09EE-402B-AF33-AEFE67C31624}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RepoInterfaces", "RepoInterfaces\RepoInterfaces.csproj", "{CE1EE702-B172-4F5A-B462-832B8FEFA355}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Database", "Database\Database.csproj", "{AB3FBA98-D3C6-41D0-97A6-84D13DAEB28D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{084C3626-148A-48B5-B19B-2A58AE13F37E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service.Interfaces", "Service.Interfaces\Service.Interfaces.csproj", "{0BF24D9E-E46A-4CE3-9465-7BF4D2BFCBF6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{744C8803-F7B9-4047-A0F2-33D49DB68B7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repositories", "Repositories\Repositories.csproj", "{0E36EEE4-9AE8-4725-82A0-B52E1FAF31AD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "reactjs-basic-frontend", "..\..\..\FrontEnd\reactjs-basic-frontend\", "{47A9BE30-7E35-4D80-90AB-8CE3331B74E3}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49872"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\FrontEnd\reactjs-basic-frontend\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49872\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49872"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\FrontEnd\reactjs-basic-frontend\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49872\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49872"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BFF565A-9D9F-47F8-9EB9-ACC0B574C2DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFF565A-9D9F-47F8-9EB9-ACC0B574C2DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFF565A-9D9F-47F8-9EB9-ACC0B574C2DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFF565A-9D9F-47F8-9EB9-ACC0B574C2DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{947C3C97-09EE-402B-AF33-AEFE67C31624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{947C3C97-09EE-402B-AF33-AEFE67C31624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{947C3C97-09EE-402B-AF33-AEFE67C31624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{947C3C97-09EE-402B-AF33-AEFE67C31624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE1EE702-B172-4F5A-B462-832B8FEFA355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE1EE702-B172-4F5A-B462-832B8FEFA355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE1EE702-B172-4F5A-B462-832B8FEFA355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE1EE702-B172-4F5A-B462-832B8FEFA355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB3FBA98-D3C6-41D0-97A6-84D13DAEB28D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB3FBA98-D3C6-41D0-97A6-84D13DAEB28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB3FBA98-D3C6-41D0-97A6-84D13DAEB28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB3FBA98-D3C6-41D0-97A6-84D13DAEB28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084C3626-148A-48B5-B19B-2A58AE13F37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084C3626-148A-48B5-B19B-2A58AE13F37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084C3626-148A-48B5-B19B-2A58AE13F37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084C3626-148A-48B5-B19B-2A58AE13F37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BF24D9E-E46A-4CE3-9465-7BF4D2BFCBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BF24D9E-E46A-4CE3-9465-7BF4D2BFCBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BF24D9E-E46A-4CE3-9465-7BF4D2BFCBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BF24D9E-E46A-4CE3-9465-7BF4D2BFCBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744C8803-F7B9-4047-A0F2-33D49DB68B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744C8803-F7B9-4047-A0F2-33D49DB68B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744C8803-F7B9-4047-A0F2-33D49DB68B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744C8803-F7B9-4047-A0F2-33D49DB68B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E36EEE4-9AE8-4725-82A0-B52E1FAF31AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E36EEE4-9AE8-4725-82A0-B52E1FAF31AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E36EEE4-9AE8-4725-82A0-B52E1FAF31AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E36EEE4-9AE8-4725-82A0-B52E1FAF31AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A9BE30-7E35-4D80-90AB-8CE3331B74E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A9BE30-7E35-4D80-90AB-8CE3331B74E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A9BE30-7E35-4D80-90AB-8CE3331B74E3}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A9BE30-7E35-4D80-90AB-8CE3331B74E3}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9BFF565A-9D9F-47F8-9EB9-ACC0B574C2DD} = {4EBC246F-DE8A-432B-9236-189256E79939}
+		{947C3C97-09EE-402B-AF33-AEFE67C31624} = {F6A85BE0-88FF-43F8-96BC-A9B023D8B2E3}
+		{CE1EE702-B172-4F5A-B462-832B8FEFA355} = {F6A85BE0-88FF-43F8-96BC-A9B023D8B2E3}
+		{AB3FBA98-D3C6-41D0-97A6-84D13DAEB28D} = {F6A85BE0-88FF-43F8-96BC-A9B023D8B2E3}
+		{084C3626-148A-48B5-B19B-2A58AE13F37E} = {0EBE0797-DB59-47AB-A17B-C6EB7E27290B}
+		{0BF24D9E-E46A-4CE3-9465-7BF4D2BFCBF6} = {0EBE0797-DB59-47AB-A17B-C6EB7E27290B}
+		{744C8803-F7B9-4047-A0F2-33D49DB68B7C} = {0EBE0797-DB59-47AB-A17B-C6EB7E27290B}
+		{0E36EEE4-9AE8-4725-82A0-B52E1FAF31AD} = {4EBC246F-DE8A-432B-9236-189256E79939}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A501A3FD-3C4B-49DC-8641-57AB55764417}
+	EndGlobalSection
+EndGlobal
