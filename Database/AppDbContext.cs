@@ -1,4 +1,5 @@
-﻿using Domain.Models;
+﻿using Database.SecurityConfiguration;
+using Domain.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,7 +16,7 @@ namespace Database
         {
             //Call IdentityDbContext onModelCreating method to insert IdentityTables
             base.OnModelCreating(modelBuilder);
-
+            modelBuilder.ApplyConfiguration(new RoleConfiguration());
         }
     }
 }
